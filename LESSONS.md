@@ -71,6 +71,11 @@ On the first video all 25 recipes passed their check. Building them found three 
 ### 17. Recipes written before the lessons, checked again
 - 39 recipes that had passed an earlier check were checked again under these rules; 36 failed. New cases: a recording that played 3.3 to 3.7 times real time in one stretch (speed comes from settings or an on-screen clock, never the recording's seconds); results called "animated" that never move; a stale preview named as the result; sizes measured on a zoom percentage instead of the thing's own edges. All are now in `write.md` and `check.md`.
 
+### 18. An unknown that turned the result inside out (first non-After Effects video, a Blender puddle shader, 2026-11-17)
+- **What happened.** All six recipes passed their check, most in round 2 or 3. Proving them in Blender from the recipe alone found two things the check could not. Recipe 05 listed "which way the height map runs" under unknowns; with an ordinary map (blocks high) the build put water on the blocks and left the joints dry, the opposite of the video. Recipe 02 never said how glossy the stone's own roughness map was, and the build's sheen came out dappled where the video's is one soft wash.
+- **Why.** Both were honest unknowns or silences, so no claim was false. Lesson 1 again: the check tests claims; only a build tests sufficiency.
+- **Rule.** An unknown whose other answer would flip the result is settled from the frames or turned into a "try both ways" instruction (`write.md`; `check.md` check 11). The proofs still run, because they find what the rule misses.
+
 ## Still open
 - Nothing yet tests the prompts themselves. A cheap test: keep a known-bad recipe (lesson 1's first version) as a fixture and confirm a fresh checker fails it on check 8.
 - The learner has been run on After Effects tutorials far more than on any other kind. Expect new lessons from cooking, music and other software.

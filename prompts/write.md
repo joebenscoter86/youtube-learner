@@ -39,6 +39,7 @@ These come from recipes that passed a check and then failed when someone built t
 - **Steps done without a word.** Watch for a switch turned off and on, an item dragged up or down a list, a setting changed in a dialog, the hand moving to a different grip. If the result depends on it, it is a step.
 - **A menu path or shortcut tagged `said`.** If the narrator only names the action ("duplicate it") and the menu is not on screen, the path is `inferred`.
 - **Sizes on the wrong ruler.** Calibrate each frame on the thing's own visible edges (the document's border, the cutting board, the guitar's frets), never on a zoom percentage or a guide line the recording itself moves.
+- **An unknown that decides the result.** A Blender recipe left "which way the height map runs" as an unknown; a builder with an ordinary map got wet blocks and dry joints, the exact opposite of the result. Before you put something under `unknowns`, ask: would the other answer flip or ruin the result? If so, settle it from the frames (the map's own image, a preview, a later picture), and if the video truly cannot settle it, say in `how to prove it` to try both ways.
 - **Measured mid-move.** A value read while the author drags or stirs is a value passed through. Measure only where it has held still for a moment, and say when a move is never finished on screen.
 
 ## Output
