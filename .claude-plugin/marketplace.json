@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "youtube-learner",
+  "description": "Learn a skill from any YouTube tutorial with Claude Code.",
+  "owner": {
+    "name": "Joe Benscoter",
+    "url": "https://joebenscoter.com"
+  },
+  "plugins": [
+    {
+      "name": "youtube-learner",
+      "description": "Learn a skill from any YouTube tutorial: Claude listens to every word, reads every frame where the screen changes, writes checked step-by-step recipes, and proves them by building the result. macOS.",
+      "version": "0.1.0",
+      "author": { "name": "Joe Benscoter" },
+      "source": "./",
+      "category": "productivity",
+      "keywords": ["youtube", "tutorial", "learning", "recipes"],
+      "homepage": "https://github.com/joebenscoter86/youtube-learner",
+      "repository": "https://github.com/joebenscoter86/youtube-learner"
+    }
+  ]
+}

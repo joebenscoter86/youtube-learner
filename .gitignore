@@ -1,0 +1,18 @@
+# Study folders hold a creator's video, frames and transcript: never commit them.
+# The learner writes them to ~/YouTube Learner, outside this repository; these lines
+# catch a study folder made here by mistake.
+**/source.mp4
+**/source.*.json
+**/captions.*.json3
+**/audio.wav
+**/whisper.json
+**/frames/
+**/frames-small/
+**/state.json
+**/timeline.md
+**/timeline.json
+STUDY/
+studies/
+.build/
+node_modules/
+.DS_Store

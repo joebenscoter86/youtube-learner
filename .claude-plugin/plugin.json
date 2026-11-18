@@ -1,0 +1,13 @@
+{
+  "name": "youtube-learner",
+  "version": "0.1.0",
+  "description": "Learn a skill from any YouTube tutorial: Claude listens to every word, reads every frame where the screen changes, writes checked step-by-step recipes, and proves them by building the result. macOS.",
+  "author": {
+    "name": "Joe Benscoter",
+    "url": "https://joebenscoter.com"
+  },
+  "homepage": "https://github.com/joebenscoter86/youtube-learner",
+  "repository": "https://github.com/joebenscoter86/youtube-learner",
+  "license": "MIT",
+  "keywords": ["youtube", "tutorial", "learning", "recipes", "transcription", "ocr", "macos"]
+}
